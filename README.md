@@ -1,12 +1,96 @@
-# React + Vite
+# Digiyog — Fractionalized Real Estate Investment Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Digiyog**, a cutting-edge platform revolutionizing real estate investment by enabling fractional ownership. Our mission is to make real estate investment accessible, transparent, and secure for everyone.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Live Demo:** [https://www.digiyog.app](https://www.digiyog.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- **Fractional Ownership:** Invest in high-value real estate properties starting with minimal amounts.
+- **Smart Contracts:** Secure your investments through blockchain-powered contracts.
+- **User-Friendly Interface:** Intuitive and responsive design built with React.
+- **Real-Time Updates:** Track your investment portfolio effortlessly.
+- **Legal Verification:** All assets are legally verified for maximum security.
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js  
+- Vercel (Deployment)  
+- Tailwind CSS / Bootstrap (UI Styling)  
+- Smart Contracts (Blockchain integration) *(if applicable)*  
+- Other libraries and tools as needed
+
+---
+
+## 📂 Project Structure
+
+├── public/ # Static assets (images, logos)
+├── src/ # React source code
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page views
+│ ├── services/ # API and blockchain service handlers
+│ └── App.jsx # Main app component
+├── package.json # Project metadata and dependencies
+└── README.md # Project documentation
+
+yaml
+Copy
+Edit
+
+---
+
+## 💻 Getting Started
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/digiyog.git
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Run the development server:
+
+bash
+Copy
+Edit
+npm start
+Open your browser at http://localhost:3000
+
+🤝 Contributing
+We welcome contributions from the community! To contribute:
+
+Fork the repo
+
+Create your feature branch (git checkout -b feature/YourFeature)
+
+Commit your changes (git commit -m 'Add some feature')
+
+Push to your branch (git push origin feature/YourFeature)
+
+Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License.
+
+🙌 Contact & Support
+For any questions or feedback, visit our website or contact us at hello@digiyog.app.
+
+⭐️ If you like Digiyog, please give this repo a star!
+
+Thanks for checking out Digiyog! 🚀
+
+yaml
+Copy
+Edit
+
+---
+
+If you want, I can customize it further with your exact tech stack or special instructions. J
