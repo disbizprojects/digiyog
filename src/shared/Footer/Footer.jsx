@@ -28,7 +28,7 @@ const Footer = ({ color }) => {
             </div>
           </div>
           <div></div>
-          <div className="grid grid-cols-2 gap-20 md:gap-5">
+          <div className="grid grid-cols-2 gap-20 md:gap-5 -ml-6 md:ml-0 ">
             <div className="flex flex-col gap-2">
               <a className="link link-hover">About</a>
               <a className="link link-hover">Contact Us</a>
