@@ -57,20 +57,27 @@ const AppAd = () => {
             />
           </div>
           <div className="flex flex-col items-end gap-10 mt-32 xl:mt-20 xl:ml-32">
-            <img src={appComingSoon} alt="app coming soon" id="comingSoon" />
+            <img
+              src={appComingSoon}
+              alt="app coming soon"
+              id="comingSoon"
+              className="w-82 md:w-98"
+            />
             <div>
-              <img
-                src={googleplay}
-                alt="googleplay"
-                className="w-sm"
-                id="googlePlay"
-              />
-              <img
-                src={appstore}
-                alt="googleplay"
-                className="w-sm "
-                id="appStore"
-              />
+              <a
+                href="https://drive.usercontent.google.com/download?id=1U2BgIaHRldCd6QlPoSOYDMBg0_lBD7-w&export=download&authuser=4&confirm=t&uuid=d97c9b22-5311-4476-ac26-a217768e97c1&at=AGN2oQ3bOmCJeZfCbCbf9TPr4E1s:1775426891743"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download from Google Play"
+              >
+                <img
+                  src={googleplay}
+                  alt="googleplay"
+                  className="w-sm"
+                  id="googlePlay"
+                />
+              </a>
+             
             </div>
           </div>
         </div>

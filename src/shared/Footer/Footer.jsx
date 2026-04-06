@@ -22,16 +22,24 @@ const Footer = ({ color }) => {
               <img src="/footer.svg" alt="logo" className="w-40 mb-2" />
             </Link>
 
-            <div className="flex gap-2 mt-4">
-              <img src={apple} alt="App Store" className="w-8 h-8" />
-              <img src={play} alt="Play Store" className="w-8 h-8" />
+            <div className="grid grid-cols-2 gap-20 md:gap-5 -ml-6 md:ml-0 ">
+              <div className="flex flex-col gap-2">
+              <a className="text-xl">Trade Licence</a>
+              <a className="text-l">TRAD/DNCC/034107/2025</a>
+              <a className="text-xl">Phone</a>
+              <a className="text-l">017 5953 8261</a>
+              <a className="text-xl">Location</a>
+              <a className="text-l">215/5 Block-B, Banasree, Dhaka</a>
+              </div>
             </div>
           </div>
           <div></div>
           <div className="grid grid-cols-2 gap-20 md:gap-5 -ml-6 md:ml-0 ">
             <div className="flex flex-col gap-2">
               <a className="link link-hover">About</a>
-              <a className="link link-hover">Contact Us</a>
+              <a href="mailto:hello@digiyog.app" className="link link-hover">
+                Contact Us
+              </a>
               <a className="link link-hover">Careers</a>
               <a className="link link-hover">Blog</a>
             </div>
@@ -43,24 +51,18 @@ const Footer = ({ color }) => {
                 className="link link-hover"
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
-                Terms
+                Terms & Conditions
               </Link>
-              <a className="link link-hover">Legal</a>
             </div>
 
             <div className="grid grid-flow-col gap-2.5 md:gap-4 mt-6 lg:mt-0">
               <a href="mailto:hello@digiyog.app">
                 <IoMdMail className="text-xl" />
               </a>
-              <a>
+              <a href="https://www.linkedin.com/company/digiyog" target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn className="text-xl" />
               </a>
-              <a>
-                <FaXTwitter className="text-xl" />
-              </a>
-              <a>
-                <AiFillInstagram className="text-xl" />
-              </a>
+            
               <a
                 href="https://www.facebook.com/digiyog.official/"
                 target="_blank"

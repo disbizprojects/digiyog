@@ -20,7 +20,7 @@ const faqs = [
   {
     step: 4,
     badge: "Sell Anytime",
-    show: "Sell shares in our secondary market or to Digiyog.",
+    show: "Sell shares in our secondary marketplace.",
   },
 ];
 

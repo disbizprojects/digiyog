@@ -55,7 +55,7 @@ const WhatWeDo = () => {
               <div className="bg-[#D9D9D9] p-6 rounded-lg flex items-center justify-around gap-5 lg:gap-0 ">
                 <img src={cycle} alt="Magnify" className="w-10 h-10" />
                 <p className="w-44 lg:w-32  text-green-900 font-semibold">
-                  Offer buyback or secondary market exits
+                  Offer secondary market exits
                 </p>
               </div>
             </div>

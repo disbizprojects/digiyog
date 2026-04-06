@@ -98,14 +98,32 @@ const Hero = () => {
           <p ref={paraRef} className="py-6 font-montRegular  text-2xl">
             Start investing in land, flats & resorts. Legally verified.
             Blockchain secured. <br /> Earn rental income & grow your wealth.
+            <br />
+            <br />
+            <br />
           </p>
+          
           <div
             className="flex items-center gap-5"
             id="buttons"
             ref={buttonsRef}
           >
-            <img src={apple} alt="apple store" />
-            <img src={play} alt="play store " />
+            
+            <a
+              href="https://drive.usercontent.google.com/download?id=1U2BgIaHRldCd6QlPoSOYDMBg0_lBD7-w&export=download&authuser=4&confirm=t&uuid=d97c9b22-5311-4476-ac26-a217768e97c1&at=AGN2oQ3bOmCJeZfCbCbf9TPr4E1s:1775426891743"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Download from Google Play"
+              
+            >
+              <img src={play} alt="play store " />
+              
+            </a>
+            <p className="font-montRegular text-lg leading-snug max-w-xs">
+              Download Our Android Beta Testing App 
+              <br />
+            </p>
+            
           </div>
         </div>
       </div>
