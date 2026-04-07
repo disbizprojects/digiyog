@@ -65,7 +65,7 @@ const AppAd = () => {
             />
             <div>
               <a
-                href="https://drive.usercontent.google.com/download?id=1U2BgIaHRldCd6QlPoSOYDMBg0_lBD7-w&export=download&authuser=4&confirm=t&uuid=d97c9b22-5311-4476-ac26-a217768e97c1&at=AGN2oQ3bOmCJeZfCbCbf9TPr4E1s:1775426891743"
+                href="https://drive.usercontent.google.com/download?id=1c_L3x3xgvOJtW8z2JZdTMH9XZxNSl4KH&export=download&authuser=4&confirm=t&uuid=647f5e32-ed0e-4177-b049-f22ed1779967&at=AGN2oQ1QnONXyUnUIu7zoBf2SRti:1775530514122"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Download from Google Play"
