@@ -89,10 +89,10 @@ const Hero = () => {
             ref={titleRef}
             className="md:text-6xl text-5xl font-montHeavy text-white  lg:mt-20"
           >
-            Wanna Own Real Estate With Just
+            Looking for a Smarter Way to Own 
             <br />
             <span className="md:text-7xl text-5xl font-montBlack">
-              500 Taka?
+              Real Estate?
             </span>
           </h1>
           <p ref={paraRef} className="py-6 font-montRegular  text-2xl">
